@@ -186,3 +186,33 @@ body{
      transform: rotate(20deg);
      transform-origin: left top;
 }
+
+.nose {
+    position: absolute;
+    width: 56px;
+    height: 42px;
+    background-color: #3c2114;
+    left: 42%;
+    top: 42%;
+    border-radius: 100% 100% 40% 40%;
+}
+
+.teeth {
+    position: absolute;
+    width: 44px;
+    height: 40px;
+    background-color: white;
+    left: 44%;
+    top: 53%;
+    border-radius: 5px;
+}
+
+.teeth:before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #a35a37;
+    left: 50%;
+    transform: translateX(-50%);
+}
